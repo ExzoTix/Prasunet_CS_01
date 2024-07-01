@@ -24,12 +24,12 @@ The Caesar Cipher is one of the simplest and most well-known encryption techniqu
 
 **Example**
 
-Plaintext: HELLO
-Shift: 3
-Encrypted Text: KHOOR
+- Plaintext: HELLO
+- Shift: 3
+- Encrypted Text: KHOOR
 
 **Encryption and Decryption Algorithm**
 
-Encryption: \( E(x) = (x + n) \mod 26 \)
-Decryption: \( D(x) = (x - n) \mod 26 \)
-[Here, \( x \) represents the position of the letter in the alphabet (0 for A, 1 for B, ..., 25 for Z), and \( n \) is the shift value.]
+- Encryption: \( E(x) = (x + n) \mod 26 \)
+- Decryption: \( D(x) = (x - n) \mod 26 \)
+- [Here, \( x \) represents the position of the letter in the alphabet (0 for A, 1 for B, ..., 25 for Z), and \( n \) is the shift value.]
